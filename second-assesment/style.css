@@ -1,0 +1,139 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-image: url(Car33.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #dde0d8;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #72d155;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.navigation li a {
+  color: #121411;
+}
+
+.login-button {
+  background-color: #d3e2c4;
+  color: #141614;
+  border: none;
+  padding: 10px 19px;
+  cursor: pointer;
+  position: absolute;
+  top: 10%;
+  right: 29px;
+  transform: translateY(-50%);
+}
+
+/* Hero section styles */
+.hero {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  background-color: #aa2929;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Car categories section styles */
+.car-categories {
+  padding: 40px;
+  background-color: #c8dbc1;
+  text-align: center;
+}
+
+.car-card {
+  display: inline-block;
+  margin: 20px;
+}
+
+.car-card img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.car-card h3 {
+  margin-top: 10px;
+}
+
+/* How It Works section styles */
+.how-it-works {
+  padding: 40px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.step {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin-bottom: 40px;
+}
+
+.step img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.step h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
