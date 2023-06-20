@@ -32,7 +32,7 @@ This is a clone of the Zoomcar website, created using HTML, and CSS. It replicat
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-# Drag and Drop Lists (2)
+# Drag and Drop Lists (3)
 
 This project implements a drag-and-drop UI with three lists: "Todo," "Working," and "Done." Users can drag and drop items between the lists to rearrange them.
 
